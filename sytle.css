@@ -7,5 +7,17 @@
 .navbar{
     height: 60px;
     background-color: rgb(20, 25, 32);
-    
+    color: white;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(C:\Users\Asus\Documents\Coding\GIT\Cloning-Projects\Amazon_Clone_Resources\amazon_logo.png) ;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
 }
