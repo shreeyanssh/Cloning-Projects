@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: rgb(20, 25, 32);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(amazon_logo.png) ;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.nav-add{
+    font-size: 12px;
+    padding: 5px;
+}
+
+
+.add-icon{
+    font-size: 14px;
+    display: flex;
+    
+}
+
+.add-first{
+    color: #CCCCCC;
+    margin-left: 10px;
+}
+
+.add-sec{
+    color: white;
+    margin-left: 3px;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+}
+
+.search-select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 50px;
+    background-color: #F3F3F3;
+    text-align: center;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    display: flex;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(232, 171, 89);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.3rem;
+    color: rgb(56, 54, 52);
+}
+
+.sign-in{
+    padding: 5px;
+}
+
+.first-in{
+    margin-left: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+.sign-in-select{
+    color: white;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    margin: none;
+}
+
+.nav-return{
+    padding: 5px;
+}
+
+.first-in-return{
+    font-size: 12px;
+    color: white;
+}
+
+.return{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin: none;
+}
+
+.nav-search:hover{
+    border: 3px solid rgb(241, 158, 56);
+}
+
+.nav-cart{
+    display: flex;
+    padding: 5px;
+}
+
+.nav-cart p{
+    margin-top: 12px;
+    font-weight: 700;
+}
+
+.fa-cart-shopping{
+    font-size: 2rem;
+}
+
+.panel{
+    display: flex;
+    height: 40px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(37, 47, 61);
+
+}
+.panel-all {
+    padding: 5px;
+}
+
+.panel-option{
+    display: flex;
+    color: white;
+    width: 70%;
+    padding: 5px;
+}
+
+.panel-option p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.electronics{
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 5px;
+}
