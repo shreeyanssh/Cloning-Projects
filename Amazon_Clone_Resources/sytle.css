@@ -4,6 +4,7 @@
     border: border-box;
 }
 
+/* Navigation Bar */
 .navbar{
     height: 60px;
     background-color: rgb(20, 25, 32);
@@ -173,4 +174,98 @@
     font-weight: 700;
     font-size: 1rem;
     padding: 5px;
+}
+
+/* Main Section */
+
+.hero-section{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+/* item box */
+.item-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    padding:20px 0px 15px;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+.box-image{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+    font: .85rem;
+    font-weight: 500;
+}
+
+footer{
+    margin-top: 15px; 
+}
+
+.foot-panel1{
+    background-color: rgb(58, 71, 88);
+    color: white;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: rgb(37, 47, 61);
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3{
+    background-color: rgb(37, 47, 61);
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-logo{
+    background-image: url(amazon_logo.png) ;
+    background-size: cover;
+    height: 50px;
+    width: 100px;
 }
