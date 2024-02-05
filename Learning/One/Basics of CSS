@@ -1,0 +1,29 @@
+color and bg-color
+width and height
+units
+max-width and max-height
+font-family
+font-size
+line-height
+text-align
+padding 
+margin
+border            //box model
+display
+position
+background
+    
+flexbox
+pseudo-element
+    ::before
+    ::after
+    ::selection
+    ::first-line
+    ::first-letter
+pseudo-classes
+    ::hover
+    ::active
+    ::focus
+    ::nth-child(n)
+animation
+media queries
