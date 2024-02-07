@@ -1,0 +1,36 @@
+********How To give font*********
+
+If your given font is not working. Download the font family of that font form google and paste it in the same folder as the project and use this....
+
+@font-face {
+    font-family: work sans;
+    src: url(Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+
+
+->font-family --->saves the name of the font(Name of your liking)
+->src: url()--->Stores the loaction of the .ttf file.
+
+
+********Manipulating img tag image**********
+
+--->When we put a image as background image in a div we can use css properties like 
+* backgound-size: cover;
+  backgound-position: 20%(x-axis) 10%(y-axis);
+
+--->In case of a img tag we cannot use above properties so we use:-
+* object-fit: cover;
+
+
+********Rotating A div***************
+---> use rotate: 23deg;
+
+
+#########--Problem Faced--##########
+--->The two flex item left and rigth get merged into one another under the @media.
+
+solution: instead of giving the height in percent or vw give it as ->fit content.
+                                                        
+--->When I gave position absoulute to the price div the align item and justify content properties stopped working and the size of the div shank.
+
+I gave it width of my own but the divs were not centering on there own.
