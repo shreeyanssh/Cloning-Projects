@@ -1,5 +1,7 @@
 ---> flex-shrink: 0;(the flex item doesn't shrink to fit in the parent element.)
 
+
+
 **********************Important*******************
 
 ---> overflow-x: auto;(this brings the scroller to the element in which this is written)
@@ -15,3 +17,8 @@
 }   
 
 Here, the thumb is the part of the scrollbar that we use to scroll.
+
+
+*********************************************************
+
+--->Linking 2 scrollbars using js.
