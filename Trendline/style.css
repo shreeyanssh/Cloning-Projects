@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Questrial;
+    src: url(Questrial-Regular.ttf);
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Questrial;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5vw;
+}
+.nav{
+    height: 3vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rebeccapurple; */
+}
+
+.symbol{
+    display:flex;
+}
+
+.symbol:hover{
+    cursor: pointer;
+}
+
+.circle{
+    height: 1.3vw;
+    width: 1.3vw;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.nav-part{
+    display: flex;
+    gap: 2vw;
+    font-size: 1.2vw;
+}
+
+.nav-part h4 span{
+    opacity: 60%;
+}
+
+.nav-part h4:hover{
+    cursor: pointer;
+}
+
+.nav-two{
+    height: 3vh;
+    display: flex;
+    gap:4vw;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-top: 2vw;
+    /* background-color: red; */
+}
+
+.nav-two h4:hover{
+    cursor: pointer;
+}
+
+.content{
+    height: 80vh;
+    width: 99vw;
+    /* background-color: aquamarine; */
+}
+
+.text{
+    height: 45%;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    overflow-x: auto;
+}
+
+.text::-webkit-scrollbar{
+    background-color: transparent;
+    height: .5vw;
+}
+.text::-webkit-scrollbar-thumb{
+    background-color: orangered;
+    border-radius: 8px;   
+
+}
+
+.elements{
+    height: 100%;
+    width: 65%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 5vw;
+    padding-bottom: 0.5vw;
+    position: relative;
+    /* background-color: red; */
+}
+
+.elements h1{
+    font-size: 9vw;
+    font-weight: 100;
+    position: relative;
+}
+.elements h1:hover{
+    cursor: pointer;
+}
+
+.num{
+    position: absolute;
+    left:30%;
+    top: 40%;
+}
+
+.image-container{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+    overflow-x: auto;
+}
+.image-container::-webkit-scrollbar{
+    background-color: transparent;
+}
+.image-container img{
+    height: 100%;
+    width: 65%;
+    flex-shrink: 0;
+    object-fit: cover;
+
+}
