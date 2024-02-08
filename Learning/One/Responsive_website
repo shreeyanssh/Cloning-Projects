@@ -1,0 +1,32 @@
+*Responsive website using HTML and CSS*
+________________________________________
+
+--> Understanding Units
+        - px
+        - %
+        - vw, vh
+        - vmax, vmin
+        - em, rem
+
+
+--> Layout of website
+        -absolute vs flex
+
+
+--> Flexbox
+        -Display flex
+        -aligning items in x and y axis
+        -flex direction
+        -flex wrap
+
+--> CSS Media Queries
+        -min height, min width
+        -min width, max width
+
+Key points to keep in mind while make a website
+
+1.CSS Flexbox
+2.CSS Units
+3.Responsive Typography
+4.Moblile-First Approach
+5.Flexible Images and Media

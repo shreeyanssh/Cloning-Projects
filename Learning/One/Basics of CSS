@@ -21,9 +21,9 @@ pseudo-element
     ::first-line
     ::first-letter
 pseudo-classes
-    ::hover
-    ::active
-    ::focus
-    ::nth-child(n)
+    :hover
+    :active
+    :focus
+    :nth-child(n)
 animation
 media queries
