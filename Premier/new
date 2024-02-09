@@ -1,0 +1,5 @@
+---> When the parent and the child don't have many padding 
+between each other when a margin is given to the child
+it puts the same margin to the parent as well sliding both 
+of them togehter. To avoid this put a very small padding between
+the two.
