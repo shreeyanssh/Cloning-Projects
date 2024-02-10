@@ -17,3 +17,7 @@ of them togehter. To avoid this put a very small padding between the two. This i
 --->white-space: nowrap;  this is use to make sure that the div or the content inside a div doesn't exeed the width of the parent and puts everything in the same line.
 
 --->How to put images on a infinite loop. 
+
+--->page 4 transition
+
+--->Added a looping marquee
