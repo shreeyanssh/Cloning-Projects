@@ -13,3 +13,7 @@ of them togehter. To avoid this put a very small padding between the two. This i
 --->backdrop-filter:blur(10px); will make the div blur.
 
 ---> Use object postion to manupulate the position of the image tag.    object-positon: top;
+
+--->white-space: nowrap;  this is use to make sure that the div or the content inside a div doesn't exeed the width of the parent and puts everything in the same line.
+
+--->How to put images on a infinite loop. 
