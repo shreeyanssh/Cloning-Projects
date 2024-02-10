@@ -1,5 +1,15 @@
 ---> When the parent and the child don't have many padding 
 between each other when a margin is given to the child
 it puts the same margin to the parent as well sliding both 
-of them togehter. To avoid this put a very small padding between
-the two.
+of them togehter. To avoid this put a very small padding between the two. This is due to a bug in CSS.
+
+
+---> If your content is going outside the div that you are working you can either write
+    *overflow: auto; // to give a scroll bar
+    *word-wrap: break-word; //to get the text in the next line
+
+--->To add a video we use video tag and to play it we give it the attribute of autoplay. To make to run again and again we use loop.
+
+--->backdrop-filter:blur(10px); will make the div blur.
+
+---> Use object postion to manupulate the position of the image tag.    object-positon: top;

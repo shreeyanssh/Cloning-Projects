@@ -1,8 +1,17 @@
+@font-face {
+    font-family: gilroy;
+    src: url(Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: monument;
+    src: url(MonumentExtended-Regular.otf);
+}
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: ;
+    font-family: gilroy;
 }
 
 html,body{
@@ -15,4 +24,133 @@ html,body{
     width: 100%;
     position: relative;
     background-color: #f8f8f8;
+    padding: 0.5px;  /*to avoid both main and nav getting same margin*/
+}
+
+.nav{
+    height: 6vw;
+    width:100% ;
+    margin-top: 2vw;
+    /* background-color: red; */
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav h1{
+    height: 100%;
+    width: 18%;
+    padding-left: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monument;
+    font-size: 3.4vw;
+    letter-spacing: -1px;
+}
+
+.nav h2{
+    height: 100%;
+    width: 24%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    border-right: 2px solid black;
+    font-weight: 600;
+}
+
+.nav h2:nth-last-child(1){
+    width: 10%;
+    border-right: none;
+}
+
+.center{
+    height: 90%;
+    width: 100%;
+    padding: 4vw;
+    position: relative;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay{
+    height: 50%;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 3vw;
+    color: #fff;
+    justify-content: flex-end;
+}
+
+.over-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3vw;
+}
+
+.over-one h1{
+    font-family: monument;
+    font-size: 4vw;
+}
+
+.over-one h2{
+    font-size: 2vw;
+    padding: 1.5vw 1.8vw;
+    border-radius: 50% ;
+    border: 1px solid #fff;
+    border-top: 3px solid #fff;
+
+}
+
+.over-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #fff;
+    font-size: 2vw;
+    font-weight: 600;
+    padding-top: 2vw;
+}
+
+.over-two img{
+    height: 5vw;
+    width: 6vw;
+}
+
+.scroll-img{
+    height: 40vw;
+    width: 100%;
+}
+
+.container{
+    height: 40vw;
+    width: 100%;
+
+}
+
+.container img{
+    height: 100%;
+    width: 20%;
+    margin: 1vw;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
 }
