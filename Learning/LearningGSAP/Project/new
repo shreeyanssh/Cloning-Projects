@@ -1,0 +1,38 @@
+1. Get the cdn for gsap and paste it above the js script.
+2. For animation that go to a destination from start use:-
+    gsap.to(".className OR #tagName",{
+
+    })
+
+3.For animation that go from a destination to start use:-
+    gsap.from(".className OR #tagName",{
+
+    })
+
+4.Putting multiple animations on a timeline to execute them one
+  another.
+
+  let sequence1 = gsap.timeline();
+
+  sequence1.to(".box1",{
+      x:1000,
+      rotate:360,
+      duration:4,
+      backgroundColor: "blue",
+      scale: 0.5,
+      delay:1
+  })
+  
+  sequence1.to(".box2",{
+      x:1000,
+      rotate:360,
+      duration:4,
+      backgroundColor: "blue",
+      scale: 0.5,
+      delay:1
+  })
+  
+  
+  
+       
+    

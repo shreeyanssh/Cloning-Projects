@@ -1,0 +1,33 @@
+@font-face {
+    font-family: gilroy;
+    src: url(Gilroy-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+}
