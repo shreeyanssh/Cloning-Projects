@@ -13,6 +13,7 @@
     padding: 0px;
     font-family: gilroy;
     box-sizing: border-box;
+    color: #f0f0f0;
 }
 
 html, body{
@@ -20,3 +21,91 @@ html, body{
     width: 100%;
 }
 
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+}
+
+.nav{
+    height: 4vw;
+    width: 100%;
+    padding: 0 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: crimson; */
+}
+
+.nav-one{
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+
+.nav h1{
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    letter-spacing: .1vw;
+}
+
+.nav-one h4{
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    letter-spacing: .1vw;
+}
+
+.nav-one h4:hover , .nav h1:hover{
+    cursor: pointer;
+}
+
+.hero h1{
+    width: 75%;
+    font-size: 10vw;
+    text-transform: uppercase;
+    line-height: 8.5vw;
+    font-weight: 400;
+    letter-spacing: -5px;
+    margin-left: 15%;
+    position: relative;
+    z-index: 9;
+    mix-blend-mode:color-dodge;
+}
+
+.hero h1:nth-child(1){
+    margin-top: 12vw;
+}
+
+.hero h1:nth-child(2){
+    text-align: center;
+}
+
+.hero h1:nth-child(3){
+    text-align: center;
+}
+
+.hero img{
+    height: 30vw;
+    width: 20vw;
+    position: absolute;
+    object-fit: cover;
+    object-position: top;
+    top:12%;
+    left: 40%;
+}
+
+#img1{
+    rotate: 24deg;
+}
+
+#img2{
+    rotate: 16deg;
+}
+
+#img3{
+    rotate: 8deg;   
+}
+
+#img4{    
+    rotate: 0deg;
+}
