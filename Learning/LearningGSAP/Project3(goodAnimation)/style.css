@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(203, 174, 136);
+}
+
+.page2 img{
+    height: 100%;
+    width: 20%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;  /*this puts the start of the div at 50% of the page*/
+    transform: translateX(-50%);  /*this move the div by 50% of its own width to center it.*/
+}
+
+
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(156, 120, 74);
+}

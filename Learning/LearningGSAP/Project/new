@@ -32,6 +32,14 @@
       delay:1
   })
   
+5. Another way to make the element come one after another is 
+    gsap.from(".nav-one h4",{
+        y: -50,
+        opacity: 0,
+        duration:1,
+        stagger:1
+    })
+by using stagger which make the h4s to come one after another. in the given example duration is 1sec.
   
   
        

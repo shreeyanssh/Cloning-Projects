@@ -1,0 +1,32 @@
+********Image Opening like curtains***************
+
+1. How to alway keep a div centered a various widths:-
+    .page2 img{
+        height: 100%;
+        width: 20%;
+        object-fit: cover;
+        position: relative;
+        left: 50%;  /*this puts the start of the div at 50% of the page*/
+        transform: translateX(-50%);  /*this move the div by 50% of its own width to center it.*/
+    }
+
+2. To get the effect write the code as following:-
+    gsap.to(".page2 img",{
+        width:"100%", //have to write in "" when using special char like %
+        scrollTrigger:{
+            trigger:".page2",
+            scroller:"body",
+            markers:"true",
+            start:"top 0",
+            end:"top -100%",
+            scrub:"true", 
+            pin:true  //Pins the trigger till the animation is completed
+        }
+    })
+
+->Make sure the trigger is the element or the dive that you want pinned for 
+the duration of the animation if you put the trigger on the 
+image the image will not move and the you will not get the result.
+->start is at the top and the end is when the page gets scrolled entirely
+i.e. -100%(or 100% above the top) and the page is pinned till the 
+animation ends thats how it works.
