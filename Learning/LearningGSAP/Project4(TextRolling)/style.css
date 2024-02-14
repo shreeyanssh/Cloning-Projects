@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background-color: #e20808;
+}
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.page2 h1{
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    font-size: 95vh;
+    font-family: sans-serif;
+    color: #e20808;
+    transform: translateX(-100%),
+
+}
+
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color:#e20808;
+}
