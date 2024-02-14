@@ -1,0 +1,35 @@
+***************GSAP Scroll Trigger***************
+1. Get the cdn for gsap and paste it above the js script in html.
+2. Get the cdn for gsap Scroll trigger and paste it below the gsap script.
+3. just write like this
+        gsap.from(".box2 .circle",{
+            scale: 0,
+            delay:0.3,
+            duration:2,
+            rotate:720,
+            scrollTrigger:".box2 .circle"
+        })
+this will put a scrollTrigger on the circle inside box2 will we show
+the animation only when the user reachs the div.
+
+4.Every element on which the animation is applied has a scroll start point
+which get triggered when the pages scoller start crosses the elements
+scroll start.
+We can manupilate the scroll start to delay or prepone the start of a 
+animation.
+
+
+5.       gsap.from(".box2 .circle",{
+            scale: 0,
+            delay:0.3,
+            duration:2,
+            rotate:720,
+            scrollTrigger:{
+                trigger:".box2 .circle",  //the element you are triggering
+                scroller:"body",   //you are scrolling the body
+                markers:"true",  //Used to see where you scroll trigger start and end.
+                start:"top 60%", //used to shift the start of a scroll trigger.
+                end:"top 30%", //Used to shift the end point
+                scrub:"true"  // the animation play back and for between the start and end points
+            }
+        })
